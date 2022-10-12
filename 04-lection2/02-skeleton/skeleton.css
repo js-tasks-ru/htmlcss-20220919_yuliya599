@@ -8,9 +8,12 @@
     border: 1px solid var(--grey-3);}
 
 .skeleton__general-info, .skeleton__total-info {
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    }
+    flex-wrap: wrap;}
+
+.skeleton__general-info {
+    margin-bottom: 24px;}
 
 .skeleton__avatar {
     width: 64px;
@@ -19,27 +22,27 @@
     background-color: var(--grey-2);
     margin-right: 16px;}
 
-.container {
+.skeleton__container {
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
     margin: 0;}
 
-.skeleton__naming {
-    width: 172px;
+
+.skeleton__line {
     height: 20px;
     background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);}
 
-.skeleton__description {
-    width: 257px;
-    height: 20px;
-    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);}
+    .skeleton__container .skeleton__line:first-child {
+    width: 42%;} /*вероятно проценты не полных плашечек пока с потолка?*/
 
-.skeleton__about {
-    width: 515px;
-    height: 20px;
-    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);}
+    .skeleton__container .skeleton__line:nth-child(2) {
+    width: 63%;}
 
-.skeleton__about:first-child {
-    margin: 24px 0 8px 0px;}
+    .skeleton__total-info .skeleton__line {
+    width: 100%;}
+
+    .skeleton__total-info .skeleton__line:first-child {
+    margin-bottom: 8px;}
