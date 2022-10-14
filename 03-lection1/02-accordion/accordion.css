@@ -36,8 +36,12 @@
         transition: transform .5s;}    
 
 .accordion__item[open] > .accordion__title:before {
-        transform: rotateZ(180deg);}      
+        transform: rotateZ(180deg);}
+
+.accordion__item[open] {
+    padding-bottom: 32px;
+}
 
 .accordion__text {
     color: var(--grey-4);   
-    padding: 16px 18px 8px 0;}
+    padding: 16px 18px 0 0;}
