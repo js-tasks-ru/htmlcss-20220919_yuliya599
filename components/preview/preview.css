@@ -1,4 +1,5 @@
 .preview {
+    flex-grow: 1;
     padding: 68px 0;
     background-color: #F9FAFC;
 }

@@ -1,0 +1,20 @@
+.templatepage__footer {
+    height: 130px;
+    grid-area: footer;
+    display: grid;
+}
+
+.footer__words {
+    display: block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #ACB5BD;
+    align-self:center;
+    justify-self: center;
+}
+   

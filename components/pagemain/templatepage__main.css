@@ -1,0 +1,7 @@
+.templatepage__main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-area: main;
+}
+    
