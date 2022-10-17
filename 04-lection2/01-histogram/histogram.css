@@ -1,0 +1,113 @@
+.histogram {
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 354px;
+    height: 185px;
+    padding: 16px 24px 24px 24px;
+    border-radius: 8px;
+    border: 1px solid var(--grey-3);
+    background-color: var(--white);}
+
+.container {
+    width: 100%;
+    height: 54px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    
+    flex-wrap: wrap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);}
+
+    .histogram__title {
+        margin: 0px;    
+        opacity: 0.8;}
+
+    .histogram__link {    
+        text-align: right;
+        color: var(--lightblue);
+        text-decoration: none;}
+
+    .histogram__count { 
+        flex-basis: 100%;   
+        font-size: 20px;
+        line-height: 26px;}
+
+.histogram__graph {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;}
+
+    .graph__value {
+        background-color: var(--lightblue);
+        flex-grow: 1;
+        margin-right: 1px;}      
+
+        .graph__value_1 {
+            height: 50px;}
+
+        .graph__value_2 {
+            height: 25px;}
+
+        .graph__value_3 {
+            height: 21px;}
+
+        .graph__value_4 {
+            height: 18px;}
+
+        .graph__value_5 {
+            height: 34px;}
+
+        .graph__value_6 {
+            height: 10px;}
+
+        .graph__value_7 {
+            height: 15px;}
+
+        .graph__value_8 {
+            height: 4px;}
+            
+        .graph__value_9 {
+            height: 12px;}
+            
+        .graph__value_10 {
+            height: 25px;}  
+                
+        .graph__value_11 {
+            height: 50px;}
+                
+        .graph__value_12 {
+            height: 25px;}
+                
+        .graph__value_13 {
+            height: 21px;}
+                
+        .graph__value_14 {
+            height: 18px;}
+                
+        .graph__value_15 {
+            height: 34px;}
+                
+        .graph__value_16 {
+            height: 10px;}
+                
+        .graph__value_17 {
+            height: 15px;}
+                
+        .graph__value_18 {
+            height: 4px;}
+                    
+        .graph__value_19 {
+            height: 12px;}
+                    
+        .graph__value_20 {
+            height: 25px;}    
+  
+
+            
