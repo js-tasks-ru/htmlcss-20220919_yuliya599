@@ -54,6 +54,13 @@
     vertical-align: baseline;
 }
   
+  h2, p {
+    margin: 0;
+    font-weight: normal;
+    font-size: 1em;
+    font-style: normal;
+    
+  }
   
   /* Grouping content
      ========================================================================== */
