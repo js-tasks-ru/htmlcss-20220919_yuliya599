@@ -1,0 +1,48 @@
+.skeleton {
+    max-width: 579px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 32px 40px 32px 24px;
+    box-sizing: border-box;    
+    border-radius: 8px;
+    border: 1px solid var(--grey-3);}
+
+.skeleton__general-info, .skeleton__total-info {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;}
+
+.skeleton__general-info {
+    margin-bottom: 24px;}
+
+    .skeleton__avatar {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        background-color: var(--grey-2);
+        margin-right: 16px;}
+
+    .skeleton__container {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin: 0;}
+
+
+.skeleton__line {
+    height: 20px;
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);}
+
+    .skeleton__line_small {
+        width: 42%;} /*вероятно проценты не полных плашечек пока с потолка?*/
+
+    .skeleton__line_medium {
+        width: 63%;}
+
+    .skeleton__line_large {
+        width: 100%;}
+
+.skeleton__total-info {
+    gap: 8px;}
